@@ -1,0 +1,18 @@
+{
+  "name": "enterprise-url-shortener",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bullmq": "^4.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "ioredis": "^5.3.2",
+    "mongoose": "^7.2.2",
+    "nanoid": "^4.0.0"
+  }
+}
